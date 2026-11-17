@@ -1,0 +1,15 @@
+# One shared list for the whole team. Everyone installs with:
+#   pip install -r requirements.txt
+# After the first successful dbt run, run "pip freeze" and add the exact
+# versions (==) of dbt-core and dbt-sqlserver here so everyone matches.
+dbt-core
+dbt-sqlserver
+pyodbc
+sqlalchemy
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+jupyter
+nbstripout

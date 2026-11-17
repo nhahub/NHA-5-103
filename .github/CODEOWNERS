@@ -1,0 +1,28 @@
+# Replace each @memberN-github-username with the real GitHub username.
+# The last matching line wins. Owners need write access to the repo.
+
+* @basmalam654-lab
+
+# Phase 1 - SQL Server and Data Warehouse
+/docs/data_dictionary/              member1
+/docs/schema/                       member1
+/dbt_project/seeds/                 member1
+/dbt_project/models/sources.yml     member1
+/sql/bronze/                        member2
+/dbt_project/models/silver/         member3
+/dbt_project/models/gold/           member4
+/dbt_project/tests/                 member5
+
+# Phase 2 - Python
+/python/notebooks/01_data_quality*            member1
+/python/notebooks/02_feature_engineering*     member2
+/python/notebooks/03_univariate_eda*          member3
+/python/notebooks/04_bivariate_multivariate*  member4
+/python/notebooks/05_business_insights*       member5
+
+# Phase 3 - Power BI (one .pbix file, one editor at a time)
+/powerbi/                           leader
+
+# Constants and workflow files: leader only
+/docs/CONSTANTS.md                  leader
+/.github/                           leader
